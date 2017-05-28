@@ -21,7 +21,7 @@
         @times
         D=M //D=M[times]
         @END
-        D;JEQ //if D==times, go to END
+        D;JEQ //if D==M[times], go to END
 
         @1
         D=D-A //M[times]=M[times]-1
